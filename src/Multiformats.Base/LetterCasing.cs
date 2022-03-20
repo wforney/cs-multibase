@@ -1,9 +1,8 @@
-﻿namespace Multiformats.Base
+﻿namespace Multiformats.Base;
+
+internal enum LetterCasing
 {
-    internal enum LetterCasing
-    {
-        Ignore,
-        Lower,
-        Upper
-    }
+    Ignore,
+    Lower,
+    Upper
 }
